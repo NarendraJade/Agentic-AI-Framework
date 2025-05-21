@@ -1,0 +1,35 @@
+{
+    "name": "css-tutor",
+    "description": "A CSS tutoring server that helps users learn CSS concepts and tracks their progress",
+    "version": "1.0.0",
+    "tools": [
+        {
+            "name": "read_from_memory",
+            "description": "Reads the user's current CSS knowledge from memory"
+        },
+        {
+            "name": "write_to_memory",
+            "description": "Updates the user's CSS knowledge memory for a specific concept",
+            "parameters": {
+                "concept": {
+                    "type": "string",
+                    "description": "The CSS concept name (e.g., 'Flexbox')"
+                },
+                "known": {
+                    "type": "boolean",
+                    "description": "Whether the user knows this concept (true/false)"
+                }
+            }
+        },
+        {
+            "name": "get_latest_updates",
+            "description": "Fetches recent news and updates about CSS features using Perplexity Sonar via OpenRouter"
+        }
+    ],
+    "env": {
+        "OPENROUTER_API_KEY": {
+            "description": "API key for OpenRouter to fetch latest CSS updates",
+            "required": false
+        }
+    }
+} 

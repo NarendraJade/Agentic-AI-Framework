@@ -1,0 +1,10 @@
+{
+  "user_id": "default_user",
+  "known_concepts": {
+    "{\n    \"concept\": \"Flexbox\",\n    \"known\": true\n}": true,
+    "{\n    \"concept\": \"Grid Layout\",\n    \"known\": false\n}": true,
+    "CSS Animations": true,
+    "CSS transitions": true,
+    "CSS Variables": true
+  }
+}
