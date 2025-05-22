@@ -7,10 +7,6 @@ import dotenv from 'dotenv';
 // Load environment variables from .env file (if it exists)
 // Primarily needed for OPENROUTER_API_KEY
 dotenv.config();
-//C:\Users\Narendra.Jade\Desktop\css-mcp-server-main\index.ts
-//C:\Users\Narendra.Jade\Desktop\css-mcp-server-main\src\prompts\index.ts
-//C:\Users\Narendra.Jade\Desktop\css-mcp-server-main\src\tools\index.ts
-//C:\Users\Narendra.Jade\Desktop\css-mcp-server-main\src\index.ts
 const openRouterApiKey = process.env.OPENROUTER_API_KEY;
 
 // Tool 1: Read from Memory

@@ -5,6 +5,9 @@
     "{\n    \"concept\": \"Grid Layout\",\n    \"known\": false\n}": true,
     "CSS Animations": true,
     "CSS transitions": true,
-    "CSS Variables": true
+    "CSS Variables": true,
+    "CSS Concept Test": true,
+    "Concept 1": true,
+    "CSS Test Concept": true
   }
 }
